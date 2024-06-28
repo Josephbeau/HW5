@@ -1,0 +1,82 @@
+<!--
+File: index.html
+GUI Assignment: THis scrabble game is only able to dynamically fill the hand with
+randomly selected tiles from the "bag"
+Joseph Beausoleil, UMass Lowell Computer Science, Joseph_Beausoleli@uml.student.edu
+What to submit: My HTML, CSS, and JS files along with github link
+Copyright (c) 2024 by Jospeh. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JB on June 28, 2024
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Scarable</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src = "graphics_data/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
+    <script src = "script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Play Scrabble!</h1>
+    <hr>
+    <h3>Directions</h3>
+    <p>This game follows the standard rules of Scrabble. To play this game you can click the ‘start game’ button to start. You can then drag each individual letter to the board and when you submit your hand your score will be tallied. When all the blocks are played your final score will be calculated and displayed. Click on the ‘start game’ button to start a new game.</p>
+    <hr>
+    <button id="play" onclick="startGame()">Start Game</button>
+    <p class="score" id="score">Score: </p>
+    <div id = "table">
+        <div id="tileSpace" value="1">
+
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="2">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="3">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="3">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="2">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+        <div id="tileSpace" value="1">
+            
+        </div>
+    </div>
+    <button id="submitWord" onclick="calcScore()">Submit Word</button>
+    <div id = "hand">
+        
+    </div>
+    <button id="fill" onclick="fillHand()">Fill Hand</button>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+/*
+File: styles.css
+GUI Assignment: THis scrabble game is only able to dynamically fill the hand with
+randomly selected tiles from the "bag"
+Joseph Beausoleil, UMass Lowell Computer Science, Joseph_Beausoleli@uml.student.edu
+What to submit: My HTML, CSS, and JS files along with github link
+Copyright (c) 2024 by Jospeh. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JB on June 28, 2024
+*/
+#hand{
+    background-image: url("graphics_data/scrabble-tile-holder-406774_640.png");
+    height: 182px;
+    width: 640px;
+
+}
+
+#table{
+    background-image: url("graphics_data/Scrabble_Board_OneLine.png");
+    height: 80px;
+    width: 1129px;
+
+}
+
+#tileSpace{
+    background-color: blue;
+    height: 66px;
+    width: 66px;
+    margin: 2.5px;
+    text-align: left;
+    display: inline-block;
+}
+
+#tile{
+    height: 66px;
+    width: 66px;
+    margin: 2.5px;
+    float: bottom;
+}
+#img0{
+    height: 66px;
+    width: 66px;
+    margin: 2.5px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
+#img1{
+    height: 66px;
+    width: 66px;
+    margin-left: 67px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
+#img2{
+    height: 66px;
+    width: 66px;
+    margin-left: 134px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
+#img3{
+    height: 66px;
+    width: 66px;
+    margin-left: 201px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
+#img4{
+    height: 66px;
+    width: 66px;
+    margin-left: 268px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
+#img5{
+    height: 66px;
+    width: 66px;
+    margin-left: 335px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
+#img6{
+    height: 66px;
+    width: 66px;
+    margin-left: 402px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: left;
+    display: inline;
+}
